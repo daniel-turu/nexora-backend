@@ -5,18 +5,13 @@ This guide will walk you through setting up and running the Django project on yo
 
 ## Prerequisites
 Before installing, ensure you have the following installed on your system:
-- Python (>= 3.x)
+- Python (>= 3.12)
 - pip (Python package manager)
-- virtualenv (Optional but recommended)
-- Git (Optional, if cloning the repository)
+- virtualenv (create virtual environment)
 
 ## Installation Steps
 
-### 1. Clone the Repository (if applicable)
-```sh
-git clone <repository-url>
-cd <project-directory>
-```
+https://github.com/daniel-turu/nexora-backend.git
 
 ### 2. Create and Activate a Virtual Environment (Optional but Recommended)
 ```sh
@@ -56,11 +51,7 @@ http://127.0.0.1:8000/
 ## Environment Variables
 If your project requires environment variables, create a `.env` file and configure them accordingly.
 
-## Additional Commands
-- Run tests:
-  ```sh
-  python manage.py test
-  ```
+
 - Collect static files (for production):
   ```sh
   python manage.py collectstatic
@@ -69,8 +60,6 @@ If your project requires environment variables, create a `.env` file and configu
 ## Deployment
 For deployment instructions, follow the guidelines for your hosting provider (e.g., Heroku, AWS, DigitalOcean, etc.).
 
-## Support
-For any issues, feel free to raise a GitHub issue or contact the maintainers.
 
 ---
 
